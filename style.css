@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+.header,
+.hero,
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+    background-color: #1f2937;
+}
+
+.logo{
+    font-weight: bold;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+ul{
+    list-style-type: none;
+    display:flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    gap: 16px;
+}
+
+a,
+.hero_sec{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+
+}
+
+.content{
+
+}
+
+.hero{
+    display: flex;
+}
+
+.banner{
+
+}
+
+.hero_main{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+button{
+    background-color: #3882F6;
+    border: #f9faf8;
+    color: #f9faf8;
+}
+
+.placeholder{
+
+}
+
+.info{
+
+}
+
+.info_header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.examples{
+    display: flex;
+}
+
+.exmaple{
+
+}
+
+.inspire{
+    background-color: #e5e7eb;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+.author{
+
+}
+
+.call{
+
+}
+
+.wrapper{
+
+}
+
+.action{
+
+}
+
+.footer{
+
+}
