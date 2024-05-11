@@ -3,6 +3,13 @@
 body{
     font-family: Roboto, sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content{
+    flex: 1;
 }
 
 .header,
@@ -38,50 +45,76 @@ a,
 
 }
 
-.content{
-
-}
-
 .hero{
     display: flex;
+    justify-content: space-between;
 }
 
 .banner{
-
+    flex: 1;
 }
 
 .hero_main{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    padding-bottom: 10px;
+}
+
+.hero_sec{
+    padding-bottom: 10px;
 }
 
 button{
     background-color: #3882F6;
     border: #f9faf8;
     color: #f9faf8;
+    font-size: 20px;
+    height: 35px;
+    width: 125px;
+    border-radius: 10px;
+    
 }
 
 .placeholder{
-
-}
-
-.info{
-
+    height: 250px;
+    width: 500px;
+    background-color: #6D747D;
+    text-align: center;
+    flex: 1;
+    margin: 15px;
 }
 
 .info_header{
     font-size: 36px;
+    padding: 46px;
     font-weight: bolder;
     color: #1f2937;
+    text-align: center;
 }
 
 .examples{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.exmaple{
+.example{
+    flex: 1;
+}
 
+.square{
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.subtext{
+    text-align: center;
+    padding: 20px;
 }
 
 .inspire{
@@ -90,26 +123,63 @@ button{
 
 .quote{
     font-size: 36px;
-    font-style: light italic;
+    font-style: italic;
+    font-weight: lighter;
     color: #1F2937;
+    padding: 36px;
+    padding-top: 75px;
+    padding-bottom: 0px;
 }
 
 .author{
-
+    text-align: right;
+    font-size: 24px;
+    padding-bottom: 75px;
 }
 
 .call{
-
+    padding: 120px;
 }
 
 .wrapper{
+    width: auto;
+    height: 5em;
+    border-radius: 15px;
+    background-color: #3882F6;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
 
+.border{
+    border-color: #F9FAF8;
+    border-style: solid;
 }
 
 .action{
-
+    flex: 1;
 }
 
-.footer{
+.itstime{
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
 
+.header,
+.hero,
+.info,
+.inspire,
+.call,
+.footer{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.copyright{
+    text-align: center;
+    margin: auto;
+    color: #FEFEFE;
 }
